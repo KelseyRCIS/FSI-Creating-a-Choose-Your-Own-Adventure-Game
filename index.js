@@ -18,8 +18,8 @@ if(firstAnswer === 'LEFT'){
     }
 
 } else if(firstAnswer === 'RIGHT'){
-    let secondAnswer = window.prompt(`You come across a snoring dragon. On the other side of him, you see a shiny treasure chest. Another path would lead you away from the dragon altogether. Do you go TOWARD the treasure or AWAY from the dragon?`)
-    if(secondAnswer === 'TOWARD'){
+    let fifthAnswer = window.prompt(`You come across a snoring dragon. On the other side of him, you see a shiny treasure chest. Another path would lead you away from the dragon altogether. Do you go TOWARD the treasure or AWAY from the dragon?`)
+    if(fifthAnswer === 'TOWARD'){
         let sixthAnswer = window.prompt(`The dragon wakes up and sits upright. You only have a moment to respond. Will you STAY or RUN?`)
         if(sixthAnswer === 'STAY'){
             let twelthAnswer = window.alert(`You and the dragon have an uplifting conversation about local politicis and become lifelong friends.`)
@@ -27,7 +27,7 @@ if(firstAnswer === 'LEFT'){
             let thirteenthAnswer = window.alert(`You run quickly back to the cave entrance and return home sheepishly.`)
         }
 
-    }else if(secondAnswer === 'AWAY'){
+    }else if(fifthAnswer === 'AWAY'){
         let seventhAnswer = window.prompt(`After walking a while longer,  you come acrosss a shiny blue flower. It is so beautiful. Will you DRAW it or PICK it?`)
         if(seventhAnswer === 'DRAW'){
             let fourteenthAnswer = window.alert(`You draw the flower, capturing only a fraction of its beauty with your quill. You bring the drawing home, somewhat disappointed, but over time, discover joy in sharing it with your friends and family, recounting the story of your days as a sorcerer with the aid of the sketch.`)
