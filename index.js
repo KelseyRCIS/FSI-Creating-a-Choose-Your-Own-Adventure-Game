@@ -16,6 +16,7 @@ if(firstAnswer === 'LEFT'){
         }else if(fourthAnswer === 'LADDER'){
             let eleventhAnswer = window.alert(`After ascending a few feet up the ladder, one of its rungs snaps, and you fall awkwwardly through each of the rungs below. You return home sheepishly.`) 
     }
+    }
 
 } else if(firstAnswer === 'RIGHT'){
     let fifthAnswer = window.prompt(`You come across a snoring dragon. On the other side of him, you see a shiny treasure chest. Another path would lead you away from the dragon altogether. Do you go TOWARD the treasure or AWAY from the dragon?`)
@@ -35,6 +36,5 @@ if(firstAnswer === 'LEFT'){
             let fifteenthAnswer = window.alert(`You pick the flower and take it home. Everyone marvels at its brilliance. However, the flower fades over time and eventually crumbles to dust.`)
         }
     }
-}
 }
 
